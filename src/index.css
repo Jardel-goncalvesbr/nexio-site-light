@@ -1,0 +1,15 @@
+/* 1. ESTA LINHA DEVE FICAR SEMPRE NO TOPO */
+@import "tailwindcss";
+
+/* 2. SEUS ESTILOS PERSONALIZADOS ENTRAM ABAIXO DELA */
+
+
+/* Exemplo: Se você quiser criar uma classe própria para usar em vários lugares */
+.meu-efeito-customizado {
+  filter: drop-shadow(0px 4px 20px rgba(124, 58, 237, 0.15));
+}
+
+/* Exemplo: Estilizar uma tag nativa que você quer que funcione no site todo */
+input::placeholder {
+  color: #94a3b8;
+}
